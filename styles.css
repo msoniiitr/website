@@ -1,28 +1,47 @@
-ul{
+.horizontal_nav{
 	list-style-type: none;
-	position : fixed;
-	width : 100%;
-	margin: 0;
-	padding: 0;
+	margin:0;
+	padding:0;
+	position:fixed;
+	width:100%;
 	overflow : hidden;
 	background-color: #333;
 }
-li{
+.horizontal_nav a{
 	float: left;
-	border-right: 1px solid #bbb;
-}
-li:last-child{
-	border-right: none;
-}
-li a {
 	display: block;
 	color: white;
 	text-align: center;
 	padding: 10px 16px;
 	text-decoration: none;
 }
-li a:hover{
+.horizontal_nav a:hover{
 	background-color : #111;
+}
+.vertical_nav{
+	list-style-type: none;
+	padding:0;
+	position: fixed;
+	text-align: center;
+	color:white;
+	margin-top: 38px;
+	height:100%;
+	width:200px;
+	background-color: #333;
+}
+.vertical_nav a{
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 10px 16px;
+	text-decoration: none;
+}
+.vertical_nav a:hover{
+	background-color : #111;
+}
+#AboutMe{
+	margin-left: 200px;
+	margin-top: 40;
 }
 h1 {color : green;}
 p {color : red;
